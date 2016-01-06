@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="quiz.css">
+  <link rel="stylesheet" media="all" href="http://fonts.googleapis.com/css?family=Lato:300" />
+  </head>
+  <body>
+<!-- to do list 
+- make icon enlarge on hover
+	should it be replaced with a new image or vector that changes color?
+- import a font
+- make sure containers are same width
+-->
+
+<!-- quiz header -->
+  	<div class="column">
+	    <div class="title"> This is a quiz about animals    	
+	    </div>
+<!-- # inline element -->
+ 		<div class="quiz">
+		    <div>
+		    	<span class="question"> What is your favorite animal? </span>
+		    	<span class="progress"> Question 1 of 2 </span>
+		    </div>
+		    	<form>
+		    		<div class="choices quiz">
+			    			<span>A bird</span>
+			    			<span class="img"><img class="icon"  src="http://www.riddle.com/assets/riddle-item/images/arrow.png" height="20" width="20" />
+			    			</span>
+		    		</div>
+		    		<div class="choices quiz">			    
+			    			<span>A dog</span>
+			    			<span class="img"><img class="icon"  src="http://www.riddle.com/assets/riddle-item/images/arrow.png" height="20" width="20" />
+			    			</span>
+		    		</div>
+		    		<div class="choices quiz">
+			    			<span>A cat</span>
+			    			<span class="img"><img class="icon" src="http://www.riddle.com/assets/riddle-item/images/arrow.png" height="20" width="20" />
+			    			</span>
+		    		</div>
+		    	</form>
+	    </div>
+	</div>
+  </body>
+</html>
